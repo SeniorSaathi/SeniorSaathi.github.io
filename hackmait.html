@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SeniorSaathi: Your Mentor on the Go</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <img src="Senior Saathi.png" alt="SeniorSaathi Logo" class="logo">
+    <h1>SeniorSaathi: Your personalised senior</h1>
+    <p>Unlock your potential with guidance from experienced seniors.</p>
+  </header>
+
+  <div class="container">
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeVYSDPdbAKlRrEwIakluNLhctesgf2Ff0hXOwPVfaWyBWuPQ/formResponse" autocomplete="off" class="input-form">
+      <h2>Student Details</h2>
+
+      <div class="input-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="entry.1832889591" required placeholder="Enter your full name">
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="entry.538093181" required placeholder="Enter your email address">
+      </div>
+
+      <div class="input-group">
+        <label for="university">University/College:</label>
+        <input type="text" id="university" name="entry.1811729493" required placeholder="Enter your university/college name">
+      </div>
+
+      <div class="input-group">
+        <label for="course">Course:</label>
+        <select name="entry.2060665406" id="course" required>
+          <option value="" disabled selected>Select your course</option>
+          <option value="BCA">BCA</option>
+          <option value="MCA">MCA</option>
+          <option value="Other">Other (Please Specify)</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label for="currentYear">Current Year of Study:</label>
+        <input type="number" id="currentYear" name="entry.1565889887" required pattern="[0-9]+" placeholder="Enter current year of study">
+      </div>
+
+      <div class="input-group">
+        <label for="courseDuration">Course Duration (in years):</label>
+        <input type="number" id="courseDuration" name="entry.823684684" required pattern="[0-9]+" placeholder="Enter course duration">
+      </div>
+
+      <div class="input-group">
+        <label for="gpa">GPA:</label>
+        <input type="number" id="gpa" name="entry.89871317" step="0.1" required pattern="[0-9]+([.][0-9]+)?" placeholder="Enter GPA">
+      </div>
+
+      <div class="input-group">
+        <label for="fieldOfInterest">Field of Interest:</label>
+        <div class="checkbox-group">
+          <input type="checkbox" id="dataScience" name="entry.288217195" value="data science">
+          <label for="dataScience">Data Science</label>
+
+          <input type="checkbox" id="webDevelopment" name="entry.288217195" value="website development">
+          <label for="webDevelopment">Website Development</label>
+
+          <input type="checkbox" id="appDevelopment" name="entry.288217195" value="app development">
+          <label for="appDevelopment">App Development</label>
+
+          <input type="checkbox" id="softwareDevelopment" name="entry.288217195" value="software development">
+          <label for="softwareDevelopment">Software Development</label>
+
+          <input type="checkbox" id="uiUx" name="entry.288217195" value="ui/ux">
+          <label for="uiUx">UI/UX</label>
+
+          <input type="checkbox" id="cyberSecurity" name="entry.288217195" value="cyber security">
+          <label for="cyberSecurity">Cyber Security</label>
+
+          <input type="checkbox" id="ai" name="entry.288217195" value="artificial intelligence">
+          <label for="ai">Artificial Intelligence</label>
+
+          <input type="checkbox" id="arVr" name="entry.288217195" value="ar/vr">
+          <label for="arVr">AR/VR</label>
+
+          <input type="checkbox" id="ml" name="entry.288217195" value="machine learning">
+          <label for="ml">Machine Learning</label>
+
+          <input type="checkbox" id="compArch" name="entry.288217195" value="computer architecture">
+          <label for="compArch">Computer Architecture</label>
+
+          <input type="checkbox" id="cloudComputing" name="entry.288217195" value="cloud computing">
+          <label for="cloudComputing">Cloud Computing</label>
+        </div>
+      </div>
+  
+      <div class="input-group">
+        <label for="githubLink1">Top 3 Projects (GitHub Links):</label>
+        <div class="project-links">
+          <label for="projectLink1">Project 1 (optional but recommended):</label>
+          <input type="text" id="projectLink1" name="entry.884717255" placeholder="Enter GitHub project link 1">
+        </div>
+  
+        <div class="project-links">
+          <label for="projectLink2">Project 2 (optional but recommended):</label>
+          <input type="text" id="projectLink2" name="entry.965331690" placeholder="Enter GitHub project link 2">
+        </div>
+  
+        <div class="project-links">
+          <label for="projectLink3">Project 3 (optional but recommended):</label>
+          <input type="text" id="projectLink3" name="entry.1662613933" placeholder="Enter GitHub project link 3">
+        </div>
+      </div>
+  
+      <button type="submit">Submit Details</button>
+    </form>
+  </div>
+  </body>
+  </html>
+  
+
+  
